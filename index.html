@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/styles.css" >
+    <title>Rocket launch</title>
+    <script src="js/main.js"></script>
+</head>
+<body>
+
+<div class="space">
+    <div class="planet-area">
+        <img id="99"  class="rocket" src="img/rocket.png" alt="rocket">
+        <img class="planet" src="img/mars.png" alt="planet">
+    </div>
+
+    <div class="control-panel">
+        <div class="control-panel__inner" >
+        <input id="login" type="password" placeholder="Enter password to unlock">
+        <input class="enterLogin" type="button" value="OK" onclick="checker()">
+
+        <div class="check-buttons">
+            <input id="6" class="check" type="checkbox" disabled onchange="checkValue()">
+            <input id="7" class="check" type="checkbox" disabled onchange="checkValue()">
+            <input id="8" class="check" type="checkbox" disabled onchange="checkValue()">
+            <input id="9" class="check" type="checkbox" disabled onchange="checkValue()">
+            <input id="10" class="check" type="checkbox" disabled onchange="checkValue()">
+            <input id="11" class="check" type="checkbox" disabled onchange="checkValue()">
+
+        </div>
+
+        <div class="levers" id="33" >
+            <input id="1" class="range-level" min="0" max="100" value="50" type="range" disabled onchange="checkValue()" >
+            <input id="2" class="range-level" min="0" max="100" value="50" type="range" disabled onchange="checkValue()">
+            <input id="3" class="range-level" min="0" max="100" value="50" type="range" disabled onchange="checkValue()">
+            <input id="4" class="range-level" min="0" max="100" value="50" type="range" disabled onchange="checkValue()">
+            <input id="5" class="range-level" min="0" max="100" value="50" type="range" disabled onchange="checkValue()">
+
+
+        </div>
+
+        <input id="55" class="bgo" type="button" value="Launch" disabled onclick="launch()">
+    </div>
+</div>
+</div>
+</body>
+</html>
